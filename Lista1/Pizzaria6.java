@@ -37,7 +37,7 @@ public class Pizzaria6 {
     private static Scanner keyboard = new Scanner(System.in);
 
     public static void main(String[] args) {
-        final Cashier cashier = new Cashier();
+        Cashier cashier = new Cashier();
         int qtdPizza, qtdSoda, qtdClients;
         DecimalFormat df = new DecimalFormat("#.##");
         System.out.println("Quantas fatias de pizza foram consumidas?");
