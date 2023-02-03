@@ -5,7 +5,7 @@ public class Init{
         char firstChar = 'J';
         String nome = "João Gonçalo";
     }
-    
+     
         public static void main(String[] args)
     {
         Variaveis joao =  new Variaveis();
