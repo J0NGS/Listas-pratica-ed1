@@ -1,5 +1,4 @@
 package Lista1;
-import java.math.*;
 import java.text.DecimalFormat;
 import java.util.Scanner;;
 
@@ -31,7 +30,7 @@ public class CircleArea9 {
 
    public static void main(String[] args){
     Circle circle = new Circle();
-    DecimalFormat df = new DecimalFormat("##.####");
+    DecimalFormat df = new DecimalFormat("##.###");
     System.out.println("Qual o raio do circulo?");
     circle.SetRadius(keyboard.nextDouble());
     System.out.println("-------------------------------------------------------------");

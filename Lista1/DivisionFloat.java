@@ -3,9 +3,6 @@ package Lista1;
 import java.util.*;
 
 public class DivisionFloat {
-    
-
-
     public static class Calculator{
         public float FloatDivision(float n1, float n2) throws Exception{
             if(n1  ==  0 || n2 == 0){
