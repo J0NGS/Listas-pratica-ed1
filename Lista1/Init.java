@@ -1,4 +1,3 @@
-package Lista1;
 
 public class Init{
     static class Variaveis{

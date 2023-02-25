@@ -1,4 +1,3 @@
-package Lista1;
 
 import java.util.*;
 

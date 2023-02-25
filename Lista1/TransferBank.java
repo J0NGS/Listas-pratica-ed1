@@ -1,11 +1,9 @@
-package Lista1;
 import java.text.DecimalFormat;
 import java.util.*;
 
 public class TransferBank {
     public static class Account{
         float balance = (float)100;
-
         public void MakeTransfer(float value){
             this.balance -= value ;
             System.out.println("Transferência concluida");

@@ -1,4 +1,3 @@
-package Lista1;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class entrada {
         System.out.println("Digite sua altura");
         data.heigh = keyboard.nextFloat();
         System.out.println("Digite a primeira letra do seu nome");
-        data.firstChar = keyboard.next().charAt(0);               //função que pega apenas o char representado pelo index
+        data.firstChar = keyboard.next().charAt(0);                      //função que pega apenas o char representado pelo index
         
         keyboard.nextLine();                                            //limpando o buffer do teclado
         
