@@ -1,10 +1,17 @@
-package Q25;
-
+package Q27;
 import java.util.Scanner;
 
-public class VectorDinamic {
-
+public class InverseVector {
     static Scanner kb = new Scanner(System.in);
+
+    public static int[] Inverse(int v[]){
+        int tan = v.length;
+        int inverse [] = new int [tan];
+        for(int i = 0; i< tan; i++){
+            inverse[i] = v[tan - 1 - i];
+        }
+        return inverse;
+    }
 
     public static void main(String[] args) {
         int qtd;
@@ -18,6 +25,13 @@ public class VectorDinamic {
         for(int i = 0; i <= (vector.length - 1); i++ ){
             System.out.println("Elemento " + i + " = " + vector[i]);
         }
+        System.out.println("Vetor invertido");
+
+        int inverse[] = Inverse(vector);
+        for(int i = 0; i <= (inverse.length - 1); i++ ){
+            System.out.println("Elemento " + i + " = " + inverse[i]);
+        }
         kb.close();  
     }
 }
+
