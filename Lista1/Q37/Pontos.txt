@@ -1,0 +1,1 @@
+Com a estrutura de repetição o código se torna mais simples e mais fácil de entender, enquanto com a recursividade o código fica mais elegante e curto.

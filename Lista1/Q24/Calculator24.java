@@ -42,11 +42,11 @@ public class Calculator24 {
         }
 
         public int factorial(){
-            int aux = 1;
-            for(int i = this.number; i <= 1; i--){
-                aux *= i ;
+            int aux  = 1;
+            for(int i = this.number; i>=1; i--){
+                aux *= i;
             }
-            return aux;
+            return aux; 
         }
     }
 
